@@ -16,6 +16,7 @@
 .discovery-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 15px}.discovery-tabs .btn{min-width:130px}.match-reason{margin:0 0 13px;color:var(--green);font-size:11px;line-height:1.5;font-weight:700}.person-actions{display:flex;flex-wrap:wrap;gap:6px}.person-actions .btn{flex:1 1 auto}.section-head[id]{scroll-margin-top:100px}.person-card .bio{min-height:40px}.people-grid.one-person-grid{display:block;max-width:520px}.people-grid.one-person-grid .person-card{min-height:320px}.people-grid.one-person-grid .person-card .bio{font-size:14px}.quota{flex-wrap:wrap}
 </style>
   <script>
+document.addEventListener("DOMContentLoaded", () => {
 /* Bridge preview: local data and local interactions; no server or payment connection. */
 (() => {
   "use strict";
@@ -443,6 +444,7 @@ function legacyHeader(){return `<header class="topbar"><button class="brand" typ
   });
   render();
 })();
+});
 </script>
 </head>
 <body>
